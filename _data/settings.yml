@@ -18,5 +18,5 @@ social:
 - {icon: 'twitter', link: 'https://twitter.com/_ancan2'}
 - {icon: 'linkedin', link: 'https://linkedin.com/in/ancantu33'}
 
-contact:
-- {name: 'Alyssa Cantu', title: 'PhD student', department: 'Computer Science', institution: 'Rice University', institution_address: '6100 Main Street, Houston, TX', email: 'anc5@rice.edu', office: 'DH 3037', image: 'assets/img/anc.jpg'}
+contacts:
+- {name: 'Alyssa Cantu', title: 'PhD student', department: 'Computer Science', institution: 'Rice University', institution_address: '6100 Main Street, Houston, TX', email: 'anc5@rice.edu', office: 'DH 3037', image: 'assets/img/contact.jpg'}
