@@ -7,7 +7,8 @@ layout: default
 <div class="row g-5 mb-5">
   <div>
     <h3 class="fw-bold border-bottom pb-3 mb-5">About</h3>
-    <p class="fs-5 col-md-8">I graduated from Brown University with an A.B. in Computational Biology in 2018. Prior to beginning my Ph.D. program, I worked as a Computational Biologist at the Texas Advanced Computing Center. Outside of academia, my hobbies include crocheting, painting, point-and-shoot filmm photography, and sewing. Currently, I am learning digital illustration, 3D modeling, and how to swim.</p> 
+    <p class="fs-5 col-md-8">I graduated from Brown University with an A.B. in Computational Biology in 2018. Prior to beginning my Ph.D. program, I worked as a Computational Biologist at the Texas Advanced Computing Center.</p> 
+    <p class="fs-5 col-md-8">Outside of academia, my hobbies include crocheting, painting, point-and-shoot film photography, and sewing. Currently, I am learning digital illustration, 3D modeling, and how to swim.</p> 
     {% for about in site.data.settings.about %}
       <p><a href="{{ site.github.url }}/about/{{ about.url}}">{{ about.name }}</a></p>
     {% endfor %}
