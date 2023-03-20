@@ -7,7 +7,9 @@ layout: default
 <div class="row g-5 mb-5">
   <div>
     <h3 class="fw-bold border-bottom pb-3 mb-5">Research</h3>
-    <p class="fs-5 col-md-8">I am broadly interested in computational biology, immunology, and natural language processing. Currently, I am investigating how environmental enrichment affects alternative splicing differences in Alzheimer's Disease-associated cell types.</p>  
+    {% for research in site.data.settings.research %}
+      <p><a href="{{ site.github.url }}/research/{{ research.url}}">{{ research.name }}</a></p>
+    {% endfor %}
   </div>
 </div>
 
