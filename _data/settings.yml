@@ -10,15 +10,15 @@ people:
 - {name: 'Graduate Student', title: 'Researcher', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/graduate-student.jpg', url: 'graduate-student'}
 
 about:
-- {name: 'Portfolio', url: 'portfolio'}
+- {name: 'Portfolio', url: '/portfolio'}
 
 research:
-- {name: 'Publications', url: 'publications'}
+- {name: 'Publications', url: '/publications'}
 
 social:
 - {icon: 'github', link: 'https://github.com/ancantu'}
-- {icon: 'twitter', link: 'https://twitter.com/_ancan2'}
+- {icon: 'bluesky', link: 'https://bsky.app/profile/ancantu.bsky.social'}
 - {icon: 'linkedin', link: 'https://linkedin.com/in/ancantu33'}
 
 contacts:
-- {name: 'Alyssa Cantu', title: 'Ph.D. student', department: 'Computer Science', institution: 'Rice University', institution_address: '6100 Main Street, Houston, TX', email: 'anc5@rice.edu', office: 'DH 3037', image: 'assets/img/contact.jpg'}
+- {name: 'Alyssa Cantu', title: 'Graduate Fellow', department: 'Computer Science', institution: 'Rice University', institution_address: '6100 Main Street, Houston, TX', email: 'anc5@rice.edu', office: 'DH 3113', image: 'assets/img/contact.jpg'}
